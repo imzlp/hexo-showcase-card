@@ -23,3 +23,6 @@ card_name:UE中人体姿态追踪,addr:https://imzlp.com/showcase/#UE%E4%B8%AD%E
 card_name:多进程Cook的性能数据,addr:https://imzlp.com/showcase/#%E5%A4%9A%E8%BF%9B%E7%A8%8BCook%E7%9A%84%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE,card_image:https://img.imzlp.com/imgs/zlp/picgo/2021/20220401130851.png
 {% endshowcasetables %}
 ```
+效果预览：[展示柜](https://imzlp.com/showcase/):
+
+![](https://img.imzlp.com/imgs/zlp/picgo/2021/20220402152726.png)
