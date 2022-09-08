@@ -57,7 +57,7 @@ hexo.extend.tag.register('showcasetables', function (args, content) {
         {
             cardImage = argsObj.card_image;
         }
-        
+        iframes +=`<div class="showcasecard-item"">\n`
         iframes += `<td align="center" style="text-align:center;border: 1px solid #c1cfdc;color: #${font_color};font-weight: ${font_weight};width: ${board_width}; padding: 10px 10px;white-space:nowrap;">`;
         iframes += `<div class="showcasecard-image-box" style="width: ${image_width};height: ${image_hight};">`
         iframes += `<a href="${cardLink}" style="border-bottom: none;"><img src="${cardImage}" style="height: 100%;width: 100%;display: block;margin: 0 auto;border: 1px solid #d7d7d7;"/>`;
@@ -65,7 +65,7 @@ hexo.extend.tag.register('showcasetables', function (args, content) {
         iframes += `</div>`;
         iframes += `<br/>`;
         iframes += `</td>\n`;
-
+        iframes +=`</div>\n`;
     });
     iframes +=`</table>\n</tr>\n</div>\n`;
     return iframes;
